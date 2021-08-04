@@ -2365,11 +2365,11 @@ namespace NTVXApi.Controllers
             respone.roiMezzaPreTaxCasshFlowYr3 = Math.Round(Convert.ToDecimal(respone.roiMezzaPreTaxCasshFlowYr3, cultures), 0).ToString("#,####");
             respone.roiMezzaPreTaxCasshFlowYr4 = Math.Round(Convert.ToDecimal(respone.roiMezzaPreTaxCasshFlowYr4, cultures), 0).ToString("#,####");
             respone.roiMezzaPreTaxCasshFlowYr5 = Math.Round(Convert.ToDecimal(respone.roiMezzaPreTaxCasshFlowYr5, cultures), 0).ToString("#,####");
-
+*/
             respone.roiActualMezzPreTaxROIYr0 = Math.Round(Convert.ToDecimal(respone.roiActualMezzPreTaxROIYr0, cultures), 0).ToString("#,####");
 
             respone.roiExpectMezzYr0 = Math.Round(Convert.ToDecimal(respone.roiExpectMezzYr0, cultures), 0).ToString("#,####");
-*/
+
 
             return JsonContent(respone);
         }
